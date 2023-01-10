@@ -16,10 +16,15 @@ const Nav = () => {
         <button onClick={showNavbar} className="nav-btn nav-close-btn">
           <FaTimes />
         </button>
-        <a href="/">Home</a>
-        <a href="/">Discography</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
+        <a href="#discography" onClick={showNavbar}>
+          Discography
+        </a>
+        <a href="#about" onClick={showNavbar}>
+          About
+        </a>
+        <a href="/" onClick={showNavbar}>
+          Contact
+        </a>
       </nav>
       <button onClick={showNavbar} className="nav-btn">
         <FaBars />
