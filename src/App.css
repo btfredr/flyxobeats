@@ -72,20 +72,23 @@ header .nav-btn {
 }
 
 .discographyItem {
-  width: 100px;
+  border-radius: 20px;
 }
 
 .discographyAlbums {
   display: grid;
-  gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  padding: 20px;
+  grid-gap: 40px;
   list-style: none;
-  width: 100%;
-  padding: 1em;
+  padding: 2em;
+  width: 70%;
   margin: 0 auto;
+
 }
 
 .cover {
-  height: 100%;
-
+  width: 100%;
+  display: block;
+  border-radius: 20px;
 }
