@@ -9,28 +9,44 @@ const Contact = () => {
         <h1>Get in touch with me</h1>
         <ul className="contactIcons">
           <li>
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://open.spotify.com/artist/7xGRgUeVSakZNqxjvyHD2b?si=GP6A2rpARVOPal2up5FXcw"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="contactIcon">
                 <FaSpotify />
               </button>
             </a>
           </li>
           <li>
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://music.apple.com/us/artist/flyxo/1383892486"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="contactIcon">
                 <SiApplemusic />
               </button>
             </a>
           </li>
           <li>
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://soundcloud.com/flyxo"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="contactIcon">
                 <FaSoundcloud />
               </button>
             </a>
           </li>
           <li>
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:flyxobeats@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="contactIcon">
                 <SiGmail />
               </button>

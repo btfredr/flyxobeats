@@ -35,6 +35,7 @@ const Discography = () => {
           </a>
         </li>
       </ul>
+
       <div className="playlist-container">
         <iframe
           src="https://open.spotify.com/embed/playlist/4DPregbFpbqU5P1BEBsXYB?utm_source=generator&theme=0"
